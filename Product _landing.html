@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8fb8e7;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 2em;
+        }
+
+        .product-image {
+            flex: 1;
+            max-width: 50%;
+        }
+
+        .product-image img {
+            width: 80%;
+            border-radius: 3px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-info {
+            flex: 1;
+            padding: 1em;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header>
+        <h1>Awesome Product</h1>
+    </header>
+    <div class="container">
+        <div class="product-image">
+            <img src="../Product  landing page/Images/Pizza.jpg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h2>Product Description</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum turpis vel dui sagittis, a bibendum risus laoreet.</p>
+            <p>Price: $99.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Product Landing Page</p>
+    </footer>
+</body>
+</html>
